@@ -17,8 +17,10 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black
 }
 
 .tab {
