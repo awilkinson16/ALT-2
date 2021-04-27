@@ -27,11 +27,11 @@ body {
 }
 
 .tab.active {
-  background-color: #DC10DC;
+  background-color: #B03A2E;
 }
 
 .tab:hover {
-  background-color: #FD18FD;
+  background-color: #E74C3C;
 }
 
 .tab-content {
