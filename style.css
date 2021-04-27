@@ -18,6 +18,7 @@ body {
   margin: 0;
   padding: 0;
   border-bottom: 1px solid black;
+  border-top: 1px solid black;
 }
 
 .tab {
@@ -26,11 +27,11 @@ body {
 }
 
 .tab.active {
-  background-color: #CCC;
+  background-color: #DC10DC;
 }
 
 .tab:hover {
-  background-color: #AAA;
+  background-color: #FD18FD;
 }
 
 .tab-content {
