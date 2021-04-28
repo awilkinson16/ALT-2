@@ -4,12 +4,12 @@
 
 .active[data-tab-content] {
   display: block;
+  background-color: black;
 }
 
 body {
   padding: 0;
   margin: 0;
-  background-color: black;
 }
 
 .tabs {
