@@ -21,7 +21,8 @@ body {
   border-top: 0px solid black;
   border-left: 0px solid black;
   border-right: 0px solid black;
-  background-color: #F8F9F9;
+  #background-color: #F8F9F9;
+  background-color: black;
   
 }
 
