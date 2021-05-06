@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="script.js" defer></script>
+  <link href="style.css" rel="stylesheet">
+  <title>ALT-2 Website</title>
+  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico'> <!--Not working.. :(-->
+</head>
+<body>
+  <ul class="tabs">
+    <li data-tab-target="#Home" class="active tab">Home</li>
+    <li data-tab-target="#Do" class="tab">What does the project do?</li>
+    <li data-tab-target="#Doesnt" class="tab">What does the project not do?</li>
+    <li data-tab-target="#Limitations" class="tab">Any limitations?</l1>
+    <li data-tab-target="#Ethical" class="tab">Ethical Issues?</li>
+    <li data-tab-target="#End_User" class="tab">End users of the project?</li>
+    <li data-tab-target="#Reflection" class="tab">Conclusion</li>
+  </ul>
+  <div class="tab-content">
+    <div id="Home" data-tab-content class="active">
+      <h1><u>Home</u></h1>
+      <p>Welcome to my Alt 2 project website.</p>
+      <h2>Hypothisis</h2>
+      <p>Gas prices in america have gone up steadily since the year 2000</p>
+      <a style="text-decoration:none" href="1.Final.py" download><p style="color:#59EEF7" ;>Code Download</p></a>
+      <a style="text-decoration:none" href="2.Short(Final).csv" download><p style="color:#59EEF7" ;>Data-Pack to go in the same folder as the code.py file</p></a>
+      <p>-Adam Wilkinson</p>
+    </div>
+  <div id="Do" data-tab-content>
+    <h1><u>What does the project do?</u></h1>
+    <p1>This project examines a dataset containing data of gas prices in America and displays it on a graph to clearly show the data.</p1>
+    <br><br>
+    <img src="Graph.png" alt="Graph">
+  </div>
+    <div id="Doesnt" data-tab-content>
+      <h1><u>What does the project not do?</u></h1>
+      <p1>This project does not predict future gas prices or look at different types of gas, it only examines standard gas prices from 1995 to 2021</p1>
+    </div>
+    <div id="Limitations" data-tab-content>
+      <h1><u>What are the limitations of the project?</u></h1>
+      <p1>There was a too much data in the original datapack so I had to trim it down.</p1>
+      <br>
+      <p1>The original datapack had the prices from each month in the year so i got the average of all of the months for each year and then just had the average price displayed for each year.</p1>
+      <br><br> 
+      <p1>The original datapack can be found here along with the trimmed one:</p1>
+      <a style="text-decoration:none" href="3.Long(Final).csv" download><p style="color:#59EEF7" ;>Original</p></a>
+      <a style="text-decoration:none" href="2.Short(Final).csv" download><p style="color:#59EEF7" ;>Edited</p></a>
+
+    </div>
+    <div id="Ethical" data-tab-content>
+        <h1><u>Any Ethical Problems?</u></h1>
+        <p1>There are no ethical issues as this is purely a statistical analysis</p1>
+    </div>
+    <div id="End_User" data-tab-content>
+      <h1><u>Who are the end users of the project?</u></h1>
+      <p1>The end users of this project are anyone who is interested in looking at how the economy has changed from 1955 to now</p1>
+    </div>
+    <div id="Reflection" data-tab-content>
+      <h1><u>Conclusion</u></h1>
+      <p1>My hypothisis was correct to a degree. Gas prices did rise from 2000 (although not steadily) but around 2014 they began declineing</p1>
+      <br><br>
+      <p1><u>The question is why gas prices fell around 2014?</u></p1><br>
+      <p1>While gasoline supplies increased massively in 2015. Demand for gas was decreasing. The economies of Europe and developing countries were weakening, and at the same time, vehicles were becoming more efficient, which caused the demand for fuel to lag, which caused a drop in prices</p1>
+   </div>
+  </div>
+</body>
+</html>
